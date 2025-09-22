@@ -5,17 +5,17 @@ LABEL MAINTAINER="Robin Genz <mail@robingenz.dev>"
 ARG JAVA_VERSION=17
 ARG NODEJS_VERSION=20
 # See https://developer.android.com/studio/index.html#command-tools
-ARG ANDROID_SDK_VERSION=9477386
+ARG ANDROID_SDK_VERSION=11076708
 # See https://developer.android.com/tools/releases/build-tools
-ARG ANDROID_BUILD_TOOLS_VERSION=33.0.0
+ARG ANDROID_BUILD_TOOLS_VERSION=34.0.0
 # See https://developer.android.com/studio/releases/platforms
-ARG ANDROID_PLATFORMS_VERSION=33
+ARG ANDROID_PLATFORMS_VERSION=34
 # See https://gradle.org/releases/
-ARG GRADLE_VERSION=8.0.2
+ARG GRADLE_VERSION=8.2.1
 # See https://www.npmjs.com/package/@ionic/cli
 ARG IONIC_VERSION=7.2.0
 # See https://www.npmjs.com/package/@capacitor/cli
-ARG CAPACITOR_VERSION=5.7.0
+ARG CAPACITOR_VERSION=6.0.0
 ARG RUBY_VERSION=3.2.2
 ARG CHROME_VERSION=114.0.5735.99
 
